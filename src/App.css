@@ -1,0 +1,76 @@
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card1{
+  width: 80%;
+  background-color: rgb(255,165,0);
+  margin-top: 50px;
+  padding: 40px;
+}
+.card2{
+  width: 80%;
+  background-color: rgb(245,245,245);
+  margin-top: 50px;
+  padding: 40px;
+}
+
+.card1 h1{
+  font-size: 60px;
+}
+
+.card2 h1{
+  font-size: 60px;
+}
+
+.logo-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.logo-box h5{
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.logo{
+  width: 120px;
+  height: 100px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/de/Amazon_icon.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: rgb(255,165,0);
+  margin: 20px;
+  margin-top: 50px;
+}
+.logo1{
+  font-size: 50px;
+  margin: 20px;
+}
+
+.case{
+  width: 180px;
+  height: 70px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.logo-item{
+  width: 120px;
+  height: 100px;
+  margin: 20px;
+  margin-top: 50px;
+}
